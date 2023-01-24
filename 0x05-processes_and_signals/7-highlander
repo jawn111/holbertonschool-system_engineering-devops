@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# kills 7-highlander and displays "I am invincible!!!"
+
+BUZZ="1"
+
+while [ $BUZZ != 0 ]
+do
+
+	echo "To infinity and beyond"
+
+	sleep 2
+
+	trap "echo I am invincible!!!" SIGTERM
+
+done
