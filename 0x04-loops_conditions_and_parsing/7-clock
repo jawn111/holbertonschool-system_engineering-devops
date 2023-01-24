@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# this script displays all the numbers of a clock
+
+x="1"
+while ((x<=12))
+	do
+		echo "Hour: $x"
+y="1"
+	((x=x+1))
+	while ((y<60))
+	do
+		echo $y
+		((y=y+1))
+	done
+done	
