@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+#the loop prints "bad luck" on 4, "good luck" on 8, "best school" otherwise
+
+x="1"
+
+while [ $x -le 10 ]
+
+	do
+		echo "Best School"
+	if 
+		[ $x -eq 4 ]
+	then
+		echo "bad luck"
+	fi
+
+	if 
+		[ $x -eq 8 ]
+	then 
+		echo "good luck"
+
+	fi
+	x=$(( x + 1 ))
+
+done
