@@ -2,7 +2,7 @@
 # this script displays all the numbers of a clock
 
 x="1"
-while ((x<=12))
+while ((x<13))
 	do
 		echo "Hour: $x"
 y="1"
